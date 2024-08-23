@@ -16,7 +16,7 @@ BEGIN
             VALUES(project_name);
     END IF;
     SELECT id
-        INTO projects_id
+        INTO project_id
         FROM projects
         WHERE name = project_name;
     INSERT INTO corrections(user_id, project_id, score)
