@@ -1,0 +1,2 @@
+// All match
+db.school.find({name: "Holberton school"})
